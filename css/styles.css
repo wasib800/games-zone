@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;800&family=Roboto:wght@300;400;700;900&family=Work+Sans:wght@300;400;600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* nav part start */
+.nav-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 150px; 
+    background-color: rgb(223, 214, 214);  
+}
+.nav-logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;   
+}
+.nav-list ul{
+    display: flex;
+    margin-right: 15px;
+}
+.nav-list li{
+    margin-right: 15px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #3C354F;
+}
+.nav-title{
+    color: #FD0D8A;
+    font: 1.1rem ;
+    font-weight: bolder;
+}
+.btn-primary{
+    width: 180px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font: 1.1rem;
+    font-weight: bolder;
+
+}
+.btn-primary:hover{
+    background-color: #048488; 
+    color: white;
+}
