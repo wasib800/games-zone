@@ -101,3 +101,53 @@
    
     
 }
+
+/* online games part */
+
+.onaline-games-part{
+    display: flex;
+   /* gap: 15px; */
+  justify-content: space-around;
+  padding: 10px 150px;
+  gap: 15px;
+   
+   
+}
+/* .img-1, img{
+    width: 250px;
+    height: 200px;
+} */
+.play-button{
+    background-color: rgb(233, 8, 8) rgb(rgb(29, 24, 24), green, rgb(10, 10, 228));
+    background-blend-mode: overlay;
+    background-image: url(/images/Rectangle\ 7.png);
+}
+
+
+
+/* footer-part */
+.footer-container{
+    height: 60vh;
+    background-color: #4812da;
+    color: #fbf5f5;
+    padding: 20px 180px;
+    text-align: center;
+}
+.footer-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+}
+.footer-icon, fc-img{
+    color: #FD0D8A;
+    gap: 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.footer-terms{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
